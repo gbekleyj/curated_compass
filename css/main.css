@@ -586,8 +586,9 @@ a:hover {
    CONTENT SECTIONS
    ============================================ */
 
-.content-section {
-  padding: var(--spacing-4xl) var(--spacing-md);
+.content-section .content-block h2,
+.content-section .content-block p {
+  text-align: center;
 }
 
 .content-block {
@@ -611,6 +612,14 @@ a:hover {
 .leadership-section {
   padding: var(--spacing-4xl) var(--spacing-md);
   background-color: var(--light-gray);
+}
+
+/* Center text in Leadership section */
+.leadership-section .section-title,
+.leadership-section .section-subtitle,
+.leadership-content,
+.leadership-content p {
+  text-align: center;
 }
 
 .leadership-content {
@@ -1044,3 +1053,4 @@ a:hover {
     gap: var(--spacing-md);
   }
 }
+
